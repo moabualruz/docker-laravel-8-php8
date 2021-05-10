@@ -1,8 +1,4 @@
-# Docker - Laravel
-
-![Docker](https://github.com/supermavster/docker-laravel-8/workflows/Docker/badge.svg)
-
-![Image](https://repository-images.githubusercontent.com/309769351/1c0dfc80-1def-11eb-9e5c-641da3e3c9b4)
+# Docker - Laravel - PHP 8
 
 A pretty simplified Docker Compose workflow that sets up a LEMP (Linux, NGINX, MySQL, PHP) network of containers for local Laravel development.
 
