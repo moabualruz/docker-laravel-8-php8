@@ -36,6 +36,6 @@ RUN apk del --no-cache freetype-dev libpng-dev libjpeg-turbo-dev
 RUN docker-php-ext-install pdo pdo_mysql
 
 # install and enable xdebug
-RUN apk add --no-cache $PHPIZE_DEPS \
-	&& pecl install xdebug \
+RUN apk add --no-cache $PHPIZE_DEPS linux-headers \
+	&& pecl install xdebug-3.3.2 \
 	&& docker-php-ext-enable xdebug
